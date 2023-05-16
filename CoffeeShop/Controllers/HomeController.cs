@@ -21,6 +21,12 @@ namespace CoffeeShop.Controllers
             return View(productRepository.GetTrendingProducts());
         }
 
-     
+        public IActionResult Contact()
+        {
+
+            return View(productRepository.GetTrendingProducts());
+        }
+
+
     }
 }
